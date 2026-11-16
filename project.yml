@@ -1,0 +1,31 @@
+name: SafeClaudeDNS
+options:
+  deploymentTarget:
+    macOS: "13.0"
+  bundleIdPrefix: com.safeclaude
+packages:
+  SafeClaude:
+    path: .
+targets:
+  SafeClaudeDNS:
+    type: system-extension
+    platform: macOS
+    sources:
+      - Sources/SafeClaudeDNS
+    dependencies:
+      - package: SafeClaude
+        product: GuardCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.safeclaude.app.dnsproxy
+        INFOPLIST_FILE: Sources/SafeClaudeDNS/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Sources/SafeClaudeDNS/SafeClaudeDNS.entitlements
+        SWIFT_VERSION: "6.0"
+        MACOSX_DEPLOYMENT_TARGET: "15.0"
+        OTHER_LDFLAGS: "$(inherited) -lbsm"
+        SKIP_INSTALL: YES
+schemes:
+  SafeClaudeDNS:
+    build:
+      targets:
+        SafeClaudeDNS: all

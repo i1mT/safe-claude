@@ -1,0 +1,8 @@
+Install SafeClaude
+
+1. Drag SafeClaude.app to the Applications folder.
+2. Open SafeClaude from Applications.
+3. Complete the first-run setup and review each requested macOS permission.
+
+Keep the app in Applications so its background services can find the signed bundle.
+For removal, use SafeClaude Settings > Integration > Uninstall.

@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+base=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd -P)
+case "${1:-}" in /*) ;; *) printf '%s\n' 'safe-claude: wrapper requires an absolute executable' >&2; exit 78;; esac
+exec "$base/safe-claude" exec-child -- "$@"

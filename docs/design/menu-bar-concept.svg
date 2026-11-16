@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1120" viewBox="0 0 1440 1120">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111713"/>
+      <stop offset="1" stop-color="#0b0f0d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="1060" fill="url(#bg)"/>
+  <circle cx="1280" cy="40" r="270" fill="#c7f36b" opacity=".035"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif">
+    <text x="96" y="80" fill="#f0f4ea" font-size="34" font-weight="700">SafeClaude</text>
+    <text x="97" y="113" fill="#a5b1a7" font-size="15">macOS 菜单栏环境防护 · 状态一眼可见，证据逐项可查</text>
+    <text x="1344" y="79" text-anchor="end" fill="#7f8c82" font-size="12" letter-spacing="2">PRODUCT INTERFACE · 01</text>
+  </g>
+  <rect x="96" y="148" width="1248" height="42" rx="12" fill="#1a211d" stroke="#303a33"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" fill="#b8c1ba">
+    <text x="118" y="175" fill="#f0f4ea" font-weight="600">●</text>
+    <text x="152" y="175">Finder</text><text x="216" y="175">文件</text><text x="258" y="175">编辑</text>
+    <text x="300" y="175">显示</text><text x="342" y="175">前往</text><text x="384" y="175">窗口</text>
+    <text x="1303" y="175" text-anchor="end" fill="#c7f36b" font-weight="700">◆ 94</text>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+    <text x="115" y="244" fill="#e8eee8" font-size="16" font-weight="700">通过：环境状态稳定</text>
+    <text x="115" y="265" fill="#829087" font-size="12">完整采样后显示真实安全分与受保护会话状态</text>
+    <text x="811" y="244" fill="#e8eee8" font-size="16" font-weight="700">阻断：分数低于策略门槛</text>
+    <text x="811" y="265" fill="#829087" font-size="12">风险照常扣分；缺少必要证据时不会冒充通过</text>
+  </g>
+
+  <!-- Safe state panel -->
+  <g font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+    <rect x="105" y="292" width="550" height="678" rx="24" fill="#19221c" stroke="#354238"/>
+    <rect x="126" y="314" width="34" height="34" rx="10" fill="#c7f36b"/>
+    <path d="M143 320l10 4v8c0 7-4 12-10 15-6-3-10-8-10-15v-8z" fill="none" stroke="#17210f" stroke-width="2"/>
+    <path d="M137 334h5l3-6 3 10 3-5h3" fill="none" stroke="#17210f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="172" y="331" fill="#f0f4ea" font-size="16" font-weight="700">SafeClaude</text>
+    <text x="172" y="348" fill="#93a095" font-size="11">运行环境监测</text>
+    <circle cx="548" cy="331" r="4" fill="#c7f36b"/>
+    <text x="562" y="335" fill="#dbe4dc" font-size="11" font-weight="600">持续监测</text>
+    <path d="M105 367h550" stroke="#354238"/>
+
+    <rect x="127" y="390" width="506" height="260" rx="18" fill="#202b23" stroke="#354238"/>
+    <text x="151" y="420" fill="#a5b1a7" font-size="13" font-weight="600">◈  环境安全分</text>
+    <text x="608" y="420" text-anchor="end" fill="#87948a" font-size="11">采样 · 21:30</text>
+    <text x="150" y="500" fill="#f0f4ea" font-size="72" font-weight="700" letter-spacing="-4">94</text>
+    <text x="263" y="496" fill="#a5b1a7" font-size="15" font-family="SF Mono, monospace">/ 100</text>
+    <text x="606" y="466" text-anchor="end" fill="#c7f36b" font-size="15" font-weight="700">环境状态稳定</text>
+    <text x="606" y="489" text-anchor="end" fill="#c7f36b" font-size="20">✓</text>
+    <g transform="translate(151 524)">
+      <rect width="19" height="7" rx="3.5" fill="#c7f36b"/><rect x="23" width="19" height="7" rx="3.5" fill="#c7f36b"/>
+      <rect x="46" width="19" height="7" rx="3.5" fill="#c7f36b"/><rect x="69" width="19" height="7" rx="3.5" fill="#c7f36b"/>
+      <rect x="92" width="19" height="7" rx="3.5" fill="#c7f36b"/><rect x="115" width="19" height="7" rx="3.5" fill="#c7f36b"/>
+      <rect x="138" width="19" height="7" rx="3.5" fill="#c7f36b"/><rect x="161" width="19" height="7" rx="3.5" fill="#c7f36b"/>
+      <rect x="184" width="19" height="7" rx="3.5" fill="#c7f36b"/><rect x="207" width="19" height="7" rx="3.5" fill="#c7f36b"/>
+      <rect x="230" width="19" height="7" rx="3.5" fill="#c7f36b"/><rect x="253" width="19" height="7" rx="3.5" fill="#c7f36b"/>
+      <rect x="276" width="19" height="7" rx="3.5" fill="#c7f36b"/><rect x="299" width="19" height="7" rx="3.5" fill="#c7f36b"/>
+      <rect x="322" width="19" height="7" rx="3.5" fill="#c7f36b"/><rect x="345" width="19" height="7" rx="3.5" fill="#c7f36b"/>
+      <rect x="368" width="19" height="7" rx="3.5" fill="#c7f36b"/><rect x="391" width="19" height="7" rx="3.5" fill="#c7f36b"/>
+      <rect x="414" width="19" height="7" rx="3.5" fill="#c7f36b"/><rect x="437" width="19" height="7" rx="3.5" fill="#354238"/>
+    </g>
+    <text x="151" y="551" fill="#98a49b" font-size="10" font-family="SF Mono, monospace">0 · 阻断</text>
+    <text x="608" y="551" text-anchor="end" fill="#98a49b" font-size="10" font-family="SF Mono, monospace">100 · 安全</text>
+    <rect x="151" y="570" width="4" height="43" rx="2" fill="#c7f36b"/>
+    <text x="166" y="588" fill="#f0f4ea" font-size="13" font-weight="600">Claude 启动门槛 80</text>
+    <text x="166" y="606" fill="#a5b1a7" font-size="11">低于启动门槛会阻止新会话</text>
+
+    <text x="128" y="685" fill="#e8eee8" font-size="14" font-weight="700">环境信号</text>
+    <text x="632" y="685" text-anchor="end" fill="#a5b1a7" font-size="12">0 个触发项</text>
+    <path d="M127 700h506" stroke="#354238"/>
+    <text x="145" y="731" fill="#c7f36b" font-size="17">✓</text>
+    <text x="171" y="731" fill="#dce4dc" font-size="13">目前没有已触发的扣分项</text>
+    <text x="128" y="783" fill="#e8eee8" font-size="14" font-weight="700">状态摘要</text>
+    <path d="M127 800h506" stroke="#354238"/>
+    <text x="151" y="828" fill="#c7f36b" font-size="16" font-weight="700">0</text>
+    <text x="151" y="847" fill="#a5b1a7" font-size="11">待确认</text>
+    <path d="M292 812v40" stroke="#354238"/>
+    <text x="314" y="828" fill="#f0f4ea" font-size="16" font-weight="700">2</text>
+    <text x="314" y="847" fill="#a5b1a7" font-size="11">受管会话</text>
+    <path d="M452 812v40" stroke="#354238"/>
+    <text x="474" y="828" fill="#f0f4ea" font-size="16" font-weight="700">刚刚</text>
+    <text x="474" y="847" fill="#a5b1a7" font-size="11">最近检查</text>
+    <path d="M105 880h550" stroke="#354238"/>
+    <rect x="127" y="887" width="506" height="34" rx="9" fill="#c7f36b"/>
+    <text x="380" y="909" text-anchor="middle" fill="#17210f" font-size="13" font-weight="700">↻  立即检测</text>
+    <rect x="127" y="929" width="164" height="28" rx="8" fill="#202b23" stroke="#354238"/>
+    <text x="209" y="947" text-anchor="middle" fill="#f0f4ea" font-size="11">⌘  集成</text>
+    <rect x="298" y="929" width="164" height="28" rx="8" fill="#202b23" stroke="#354238"/>
+    <text x="380" y="947" text-anchor="middle" fill="#f0f4ea" font-size="11">☷  规则</text>
+    <rect x="469" y="929" width="164" height="28" rx="8" fill="#202b23" stroke="#354238"/>
+    <text x="551" y="947" text-anchor="middle" fill="#f0f4ea" font-size="11">⚙  设置</text>
+  </g>
+
+  <!-- Blocked state panel -->
+  <g font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+    <rect x="785" y="292" width="550" height="678" rx="24" fill="#19221c" stroke="#354238"/>
+    <rect x="806" y="314" width="34" height="34" rx="10" fill="#c7f36b"/>
+    <path d="M823 320l10 4v8c0 7-4 12-10 15-6-3-10-8-10-15v-8z" fill="none" stroke="#17210f" stroke-width="2"/>
+    <path d="M817 334h5l3-6 3 10 3-5h3" fill="none" stroke="#17210f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="852" y="331" fill="#f0f4ea" font-size="16" font-weight="700">SafeClaude</text>
+    <text x="852" y="348" fill="#93a095" font-size="11">运行环境监测</text>
+    <circle cx="1228" cy="331" r="4" fill="#ff7867"/>
+    <text x="1242" y="335" fill="#dbe4dc" font-size="11" font-weight="600">保护中</text>
+    <path d="M785 367h550" stroke="#354238"/>
+    <rect x="807" y="390" width="506" height="260" rx="18" fill="#202b23" stroke="#354238"/>
+    <text x="831" y="420" fill="#a5b1a7" font-size="13" font-weight="600">◈  环境安全分</text>
+    <text x="1288" y="420" text-anchor="end" fill="#87948a" font-size="11">采样 · 21:31</text>
+    <text x="830" y="500" fill="#f0f4ea" font-size="72" font-weight="700" letter-spacing="-4">77</text>
+    <text x="944" y="496" fill="#a5b1a7" font-size="15" font-family="SF Mono, monospace">/ 100</text>
+    <text x="1286" y="466" text-anchor="end" fill="#ff7867" font-size="15" font-weight="700">启动保护已拦截</text>
+    <text x="1286" y="489" text-anchor="end" fill="#ff7867" font-size="20">×</text>
+    <g transform="translate(831 524)">
+      <rect width="19" height="7" rx="3.5" fill="#ff7867"/><rect x="23" width="19" height="7" rx="3.5" fill="#ff7867"/>
+      <rect x="46" width="19" height="7" rx="3.5" fill="#ff7867"/><rect x="69" width="19" height="7" rx="3.5" fill="#ff7867"/>
+      <rect x="92" width="19" height="7" rx="3.5" fill="#ff7867"/><rect x="115" width="19" height="7" rx="3.5" fill="#ff7867"/>
+      <rect x="138" width="19" height="7" rx="3.5" fill="#ff7867"/><rect x="161" width="19" height="7" rx="3.5" fill="#ff7867"/>
+      <rect x="184" width="19" height="7" rx="3.5" fill="#ff7867"/><rect x="207" width="19" height="7" rx="3.5" fill="#ff7867"/>
+      <rect x="230" width="19" height="7" rx="3.5" fill="#ff7867"/><rect x="253" width="19" height="7" rx="3.5" fill="#ff7867"/>
+      <rect x="276" width="19" height="7" rx="3.5" fill="#ff7867"/><rect x="299" width="19" height="7" rx="3.5" fill="#ff7867"/>
+      <rect x="322" width="19" height="7" rx="3.5" fill="#ff7867"/><rect x="345" width="19" height="7" rx="3.5" fill="#354238"/>
+      <rect x="368" width="19" height="7" rx="3.5" fill="#354238"/><rect x="391" width="19" height="7" rx="3.5" fill="#354238"/>
+      <rect x="414" width="19" height="7" rx="3.5" fill="#354238"/><rect x="437" width="19" height="7" rx="3.5" fill="#354238"/>
+    </g>
+    <text x="831" y="551" fill="#98a49b" font-size="10" font-family="SF Mono, monospace">0 · 阻断</text>
+    <text x="1288" y="551" text-anchor="end" fill="#98a49b" font-size="10" font-family="SF Mono, monospace">100 · 安全</text>
+    <rect x="831" y="570" width="4" height="43" rx="2" fill="#ff7867"/>
+    <text x="846" y="588" fill="#f0f4ea" font-size="13" font-weight="600">低于最低安全分 80，已拦截</text>
+    <text x="846" y="606" fill="#a5b1a7" font-size="11">修复触发项后重新检测</text>
+    <text x="808" y="685" fill="#e8eee8" font-size="14" font-weight="700">环境信号</text>
+    <text x="1312" y="685" text-anchor="end" fill="#a5b1a7" font-size="12">4 个触发项</text>
+    <path d="M807 700h506" stroke="#354238"/>
+    <text x="825" y="731" fill="#f0f4ea" font-size="13">机房 / 托管网络</text><text x="1292" y="731" text-anchor="end" fill="#ff7867" font-family="SF Mono, monospace" font-size="12">−8</text>
+    <path d="M807 744h506" stroke="#354238"/>
+    <text x="825" y="775" fill="#f0f4ea" font-size="13">VPN / 代理属性</text><text x="1292" y="775" text-anchor="end" fill="#ff7867" font-family="SF Mono, monospace" font-size="12">−6</text>
+    <path d="M807 788h506" stroke="#354238"/>
+    <text x="825" y="819" fill="#f0f4ea" font-size="13">IP / 时区不一致</text><text x="1292" y="819" text-anchor="end" fill="#ff7867" font-family="SF Mono, monospace" font-size="12">−6</text>
+    <path d="M807 832h506" stroke="#354238"/>
+    <text x="825" y="863" fill="#f0f4ea" font-size="13">IP / 语言不一致</text><text x="1292" y="863" text-anchor="end" fill="#ff7867" font-family="SF Mono, monospace" font-size="12">−3</text>
+    <path d="M785 880h550" stroke="#354238"/>
+    <rect x="807" y="887" width="506" height="34" rx="9" fill="#c7f36b"/>
+    <text x="1060" y="909" text-anchor="middle" fill="#17210f" font-size="13" font-weight="700">↻  立即检测</text>
+    <rect x="807" y="929" width="164" height="28" rx="8" fill="#202b23" stroke="#354238"/>
+    <text x="889" y="947" text-anchor="middle" fill="#f0f4ea" font-size="11">⌘  集成</text>
+    <rect x="978" y="929" width="164" height="28" rx="8" fill="#202b23" stroke="#354238"/>
+    <text x="1060" y="947" text-anchor="middle" fill="#f0f4ea" font-size="11">☷  规则</text>
+    <rect x="1149" y="929" width="164" height="28" rx="8" fill="#202b23" stroke="#354238"/>
+    <text x="1231" y="947" text-anchor="middle" fill="#f0f4ea" font-size="11">⚙  设置</text>
+  </g>
+  <rect x="105" y="991" width="1230" height="52" rx="14" fill="#211f17" stroke="#5a4b2c"/>
+  <circle cx="130" cy="1017" r="5" fill="#f1be5b"/>
+  <text x="148" y="1022" fill="#f1be5b" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700">数据不足时：</text>
+  <text x="245" y="1022" fill="#d6d0bf" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">主读数显示 —，刻度只显示已知安全分上限；必要检查完成前不会放行。</text>
+  <text x="720" y="1081" text-anchor="middle" fill="#66736a" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12">
+    概念展示 · 正式界面以当前评估结果、规则状态和辅助功能偏好为准
+  </text>
+</svg>

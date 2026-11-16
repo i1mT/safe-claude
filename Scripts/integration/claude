@@ -1,0 +1,13 @@
+#!/bin/sh
+# The official executable stays untouched; target was selected during setup.
+set -eu
+base=$(CDPATH= cd -- "$(dirname -- "$0")/../libexec" && pwd -P)
+target=$(cat "$base/claude-target")
+case "$target" in /*) ;; *) printf '%s\n' 'safe-claude: invalid target' >&2; exit 78;; esac
+wrapper="$base/process-wrapper"
+if [ -n "${CLAUDE_CODE_PROCESS_WRAPPER:-}" ] && [ "$CLAUDE_CODE_PROCESS_WRAPPER" != "$wrapper" ]; then
+    printf '%s\n' 'safe-claude: an existing process wrapper needs manual reconciliation' >&2
+    exit 78
+fi
+export CLAUDE_CODE_PROCESS_WRAPPER="$wrapper"
+exec "$base/safe-claude" exec -- "$target" "$@"
